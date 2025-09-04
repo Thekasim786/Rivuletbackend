@@ -8,7 +8,7 @@ import { fileURLToPath } from "url";
 
 import AuthRouter from "./Routes/AuthRouter.js";
 import connectDB from "./models/db.js";
-import videoRoutes from "./routes/VideoRoutes.js";
+import videoRoutes from "./Routes/videoRoutes.js";
 
 dotenv.config();
 connectDB();
